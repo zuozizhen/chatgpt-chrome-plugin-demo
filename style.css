@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+#container {
+  width: 400px;
+  margin: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+#bookmarks-list {
+  margin-top: 20px;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 300px;
+}
+
+.hidden {
+  display: none;
+}

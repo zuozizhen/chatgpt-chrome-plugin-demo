@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Bookmark Manager</title>
+</head>
+<body>
+  <div id="container">
+    <h1>Bookmark Manager</h1>
+    <input id="bookmark-url" type="text" placeholder="Enter URL...">
+    <input id="bookmark-title" type="text" placeholder="Enter title...">
+    <button id="add-bookmark">Add Bookmark</button>
+    <hr>
+    <div id="bookmarks-list"></div>
+  </div>
+  <!-- Edit Bookmark Modal -->
+    <div id="edit-modal" class="modal hidden">
+    <div class="modal-content">
+        <h3>Edit Bookmark</h3>
+        <label for="edit-bookmark-title">Title:</label>
+        <input type="text" id="edit-bookmark-title" />
+        <label for="edit-bookmark-url">URL:</label>
+        <input type="text" id="edit-bookmark-url" />
+        <button id="save-edit">Save</button>
+        <button id="cancel-edit">Cancel</button>
+    </div>
+    </div>
+  <script src="popup.js"></script>
+</body>
+</html>
